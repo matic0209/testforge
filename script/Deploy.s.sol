@@ -12,6 +12,5 @@ contract Deploy is Script {
     // Commented out for now until https://github.com/crytic/slither/pull/1461 is released.
     // vm.startBroadcast();
     counter = new Counter();
-    
   }
 }
